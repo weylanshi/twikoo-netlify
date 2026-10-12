@@ -1,6 +1,6 @@
 [[headers]]
   for = "/.netlify/functions/*"
   [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Access-Control-Allow-Headers = "Content-Type, Authorization, X-Requested-With"
+    Access-Control-Allow-Origin = "https://tool.weypage.com"
+    Access-Control-Allow-Headers = "Content-Type, Authorization, X-Requested-With, Accept"
     Access-Control-Allow-Methods = "GET, POST, OPTIONS"
